@@ -7,26 +7,29 @@
 :root {
     font-family: 'Arial', sans-serif; 
     line-height: 1; 
-    color: #573a37;
+    color: #573A37
 }
 
 body {
-    background-image: url('wrong-path/bg.png'); 
+    background-image: url('file:///C:/Users/TI/P-ginaReceitas/assets/bg.png'); 
     background-size: contain; 
-    background-repeat: repeat; 
+    background-color: #573824;
+
 }
 
 #page {
     box-sizing: content-box; 
     width: 800px;
-    padding: 10px; 
-    background-color: #fff; 
-    border-radius: 0px; 
-    margin: 10px auto; 
+    padding: 50px; 
+    background-color: #F0E8C2; 
+    border-radius: 20px; 
+    margin: 0px auto; 
+    padding-right: 0px;
+    padding-top: 30px;
 }
 
 img {
-    border-radius: 50%; 
+    border-radius: 0%; 
 }
 
 main {
@@ -34,36 +37,53 @@ main {
 }
 
 section + section {
-    margin-top: 0px; 
+    margin-top: 25px; 
 }
 
 #about p + p {
-    margin-top: 24px; 
+    font-family: 'Alice';
+    line-height: 1.5;
+    margin-top: 16px; 
+    color: #573A37
 }
 
 h1 {
-    line-height: 1.2; 
-    font-size: 60px; 
+    padding-top: 20px;
+    font-family: 'Alice';
+    line-height: 1.4; 
+    font-size: 40px;
 }
 
 h2 {
-    font-size: 12px; 
+    font-family: 'Alice';
+    line-height: 1.5;
+    font-size: 24px; 
 }
 
 h1,
 h2 {
     margin-bottom: 0px; 
-    color: #000; 
+    color: #291B1A
+}
+
+p {
+    padding-top: 10px;
+    font-family: 'Alice';
+    line-height: 1.4; 
 }
 
 ul {
-    padding-left: 0px; 
+    font-family: 'Alice';
+    padding-left: 25px; 
+    line-height: 1.5;
+    color: #573A37
 }
 
 footer {
-    color: #000; 
-    text-align: left; 
-    padding-bottom: 10px; 
+    font-family: 'Alice';
+    color: #F0E8C2; 
+    text-align: center; 
+    padding-bottom: 0px; 
 }
 
 footer img {
